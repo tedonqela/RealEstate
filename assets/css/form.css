@@ -1,0 +1,139 @@
+html,body{
+  height: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FDFEFE;
+  font-weight: 200;
+}
+
+/* Patundshmeri form info-shpalljet-field */
+.main-title{
+	margin-bottom: 30px;
+	font-size: 33px;
+	font-weight: 300;
+}
+
+
+.clearfix span{
+	border: 2px solid #eee;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 4px;
+}
+.info-shpalljet-field{
+	margin-top: 20px;
+}
+.cmxform .form-group .form-control{
+	border-radius: 0;
+	border-color: #aaa;
+}
+.form-group .form-control-textarea{
+	height: 150px;
+	resize: vertical;
+}
+.text-center h1{
+	font-size: 30px;
+	color: #339BEB;
+}
+
+.form-horizontal .border-bottom{
+	margin-top: 5%;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.plot-shpalljen{
+	padding-top: 20px;
+}
+
+
+.info-right-border{
+	border-right: 1px solid #eee;
+}
+/* Info-shaplljet-field Ends here */
+
+
+.kontakti-shpalljet{
+	margin-top: 20px;
+}
+.kontakti-shpalljet .form-control{
+	border-radius: 0;
+	height: 45px;
+	border-color: #aaa;
+}
+
+.statusi{
+	display: block;
+}
+/* Location */
+#main-api #map-api {
+	height: 200px;
+	background-color: black;
+}
+
+
+.text-error{
+	color: #ca3c3c;
+}
+
+/* Dropzone */
+#uploadFile .dropzone{
+    border: 5px solid rgba(0, 0, 0, 0.3);
+		border-style: dashed;
+		height: 400px;
+}
+
+.note{
+	display: block;
+	font-size: 12px;
+}
+
+.dropzone .dz-message{
+	font-size: 30px;
+}
+
+#dr-btn-upload {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    cursor: pointer !important;
+    margin-left: -47px;
+    background: #555;
+    color: #fff;
+}
+
+.col-sm-12.btn{
+	border-radius: none;
+}
+
+
+/* Validation */
+form.cmxform label.error, label.error{
+	color: red;
+}
+
+
+/* submit-btn*/
+#form-submit-btn .btn-prim{
+	padding: 30px;	
+}
+
+/* Media query*/
+
+@media (max-width: 793px){
+	.main-title{
+		font-size: 28px;
+	}
+}
+
+
+@media (max-width: 	991px){
+	.div-padding-left,
+	.div-padding-right{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

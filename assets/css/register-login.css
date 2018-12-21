@@ -1,0 +1,35 @@
+body{
+  background-image: url(../img/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+#main-content{
+  margin-top: 80px;
+  margin-bottom: 130px;
+}
+
+#login-main-content{
+  margin-top: 60px;
+  margin-bottom: 265px;
+}
+.pull-right{
+  margin-bottom: 5px;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+  border-radius: 2px;
+}
+
+
+.google-btn{
+  width: 100%;
+  color: #fff;
+  background-color: #dc4e41;
+  border-radius: 2px;
+}
+.google-btn:hover{
+  background-color: rgb(193, 50, 33);
+  color: #fff;
+}
